@@ -10,7 +10,7 @@ This Python script is designed to analyze sales and menu data for a hypothetical
 
 4. **Reading CSV Data**: The script reads the menu and sales data from their respective files, skipping the header row and appending each row of data to the `menu` and `sales` lists.
 
-5. **Analyzing Data**: The core of the script involves analyzing the sales data in relation to the menu items. For each item sold (as per the sales data), it checks if the item exists in the menu data. If so, it calculates and aggregates metrics such as total quantity sold, total revenue, total cost, and total profit for each item.
+5. **Analyzing Data**: The core of the script involves analyzing the sales data with regards to the menu items. For each item sold (from the sales data), it checks if the item exists in the menu data. If so, it calculates and tracks metrics such as total quantity sold, total revenue, total cost, and total profit for each item.
 
 6. **Report Generation**: For items found in both the sales and menu data, the script updates the `report` dictionary with the calculated metrics. This involves incrementing counts, revenue, cost, and profit for each matching item based on the quantity sold and the item's price and cost.
 
